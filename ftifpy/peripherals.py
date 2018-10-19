@@ -67,7 +67,7 @@ class output:
         self.roboif.setLock(self.locks, False)
 
     def setLevel(self, level):
-        self.outer.SetOutput(self.o, level - 1)
+        self.outer.SetOutput(self.o, level)
 
 
 class resistor:
